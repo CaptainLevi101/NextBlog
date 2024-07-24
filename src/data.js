@@ -1,0 +1,26 @@
+export const mp=[
+    {
+    cat:"Travel",
+    image:"https://res.cloudinary.com/dsja09265/image/upload/v1721821466/travel2_eubxza.jpg"
+    },
+    {
+    cat:"Lifestyle",
+    image:"https://res.cloudinary.com/dsja09265/image/upload/v1721821443/lifestyle_dnpxp6.jpg"
+    },
+    {
+        cat:"Tech",
+        image:"https://res.cloudinary.com/dsja09265/image/upload/v1721821450/tech_jfxkat.jpg"
+    },
+    {
+        cat:"Sports",
+        image:"https://res.cloudinary.com/dsja09265/image/upload/v1721821427/sports_toryfp.jpg"
+     },
+     {
+        cat:"Fashion",
+        image:"https://res.cloudinary.com/dsja09265/image/upload/v1721821436/fashion_byoc5n.jpg"
+    },
+    {
+        cat:"Food",
+        image:"https://res.cloudinary.com/dsja09265/image/upload/v1721821458/food_pya2zo.jpg"
+     },
+    ];

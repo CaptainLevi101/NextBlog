@@ -3,11 +3,12 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import Image from 'next/image'
 import { Button, Typography } from '@material-tailwind/react'
+import CardWithImage from './CardWithImage';
 
 const HeroSection = () => {
     const text="Dive into a World of Insightful Content: At Blogger, we offer a diverse collection of articles and features that span the latest trends, emerging topics, and expert insights in Tech, Science, Daily Life, and Sports. Our blog is designed to deliver valuable knowledge, spark meaningful conversations, and provide actionable takeaways for both enthusiasts and professionals.";
     const [displayedText, setDisplayedText] = useState(text[0]);
-
+   
      useEffect(() => {
         let index = 0;
         const intervalId = setInterval(() => {
@@ -16,8 +17,8 @@ const HeroSection = () => {
             if (index ==text.length-1) {
                 clearInterval(intervalId);
             }
-            console.log(index);
-        }, 100);
+            
+        }, 50);
         
         return () => clearInterval(intervalId);
     }, []);
@@ -42,6 +43,7 @@ const HeroSection = () => {
        <Typography variant='h4' className=" lg:pl-36 lg:pr-36 sm:pr-24 text-white">
         {displayedText}
          </Typography>
+        
         
    </div>
    
